@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+.home {
+    background-color: black;
+    width: auto;
+    height: 135vh;
+}
+
+.get {
+    right: -70rem;
+    bottom: 2.5rem;
+    cursor: pointer;
+}
+
+.frame53a {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 74.94px;
+    left: 17rem;
+    position: relative;
+    top: 7.7rem;
+    width: 35rem;
+    font-family: 'Roboto Serif', serif;
+}
+
+.frame53a span {
+    color: rgba(100, 204, 197, 1);
+}
+
+.frame53b {
+    width: 29rem;
+    font-size: 17px;
+    top: 8.7rem;
+    left: 17rem;
+}
+
+.frame53c {
+    left: 17.6rem;
+    top: 12.5rem;
+    position: relative;
+    z-index: 1;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.frame53d {
+    left: 17rem;
+    padding-left: 1.8rem;
+    top: 10rem;
+    position: relative;
+    font-size: 20px;
+    border-radius: 23px;
+    width: 248px;
+    background-color: white;
+    color: black;
+    height: 48px;
+}
+
+.ellipse {
+    width: 850px;
+    height: 850px;
+    border: 2px solid;
+    border-image-source: linear-gradient(180deg, rgba(251, 251, 251, 0.4) 0%, rgba(6, 248, 225, 0.4) 53.12%, rgba(100, 204, 197, 0.4) 100%);
+    position: relative;
+    top: -25rem;
+    right: -37rem;
+}
+
+.ellipse12 {
+    width: 850px;
+    height: 850px;
+    position: relative;
+    right: -3.7rem;
+    background: radial-gradient(60% 55% at 60% 50%, rgba(153, 237, 229, 0.15) 0%, rgba(178, 241, 235, 0.125) 25.52%, rgba(215, 246, 243, 0.055) 43.23%, rgba(234, 249, 247, 0.03)82.29%, rgba(251, 251, 251, 0.01) 100%);
+}
+
+.ellipse11 {
+    position: absolute;
+    width: 590px;
+    height: 620px;
+    border: 2px solid;
+    border-image-source: linear-gradient(180deg, rgba(251, 251, 251, 0.4) 0%, rgba(6, 248, 225, 0.4) 53.12%, rgba(100, 204, 197, 0.4) 100%);
+    top: 4rem;
+    right: -0.5rem;
+}
+
+.ellipse10 {
+    position: absolute;
+    width: 455px;
+    height: 480px;
+    background: rgba(0, 0, 0, 0.2);
+    top: 8.4rem;
+    right: 3.5rem;
+    border-radius: 50rem;
+}
+
+.ellipse9 {
+    position: absolute;
+    width: 525px;
+    height: 550px;
+    top: 6rem;
+    right: 1.5rem;
+    border: 2px solid;
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 11.46%, rgba(0, 0, 0, 0.22) 50%, rgba(153, 237, 229, 0.22) 94.27%);
+}
+
+.frame161 {
+    font-size: 20px;
+    left: 17rem;
+    position: relative;
+    top: -33rem;
+    width: 300px;
+    font-family: 'Roboto Serif', serif;
+}
+
+.frame161 p {
+    color: rgba(100, 204, 197, 1);
+}
+
+.frame161 .client {
+    position: relative;
+    left: -1rem;
+    width: 693px;
+    height: 70px;
+}
+
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.Ourservices {
+    width: 80vw;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    top: 1rem;
+    margin: auto;
+}
+
+.Ourservices .our {
+    color: rgba(100, 204, 197, 1);
+    font-family: 'Roboto Serif', serif;
+    font-size: 30px;
+}
+
+.Ourservices .service {
+    font-size: 64px;
+    width: 695px;
+    height: 150px;
+    font-family: 'Roboto Serif', serif;
+
+}
+.boxes{
+    width: 1400px;
+    height: 368px;
+    font-family: 'Roboto Serif', serif;
+}
+.frame37{
+    width: 422px;
+    height: 300px;
+    padding: 45px;
+    border-radius: 20px;
+    background: rgba(244, 244, 244, 1);
+}
+.frame37:hover{
+    background: black;
+    color: white;
+}
+.frame37a{
+    width: 332px;
+    height: 136px;
+}
+.frame56{
+    width: 422px;
+    height: 300px;
+    padding: 45px;
+    border-radius: 20px;
+    background: rgba(244, 244, 244, 1);
+}
+.frame56:hover{
+    background: black;
+    color: white;
+}
+.frame38{
+    width: 422px;
+    height: 300px;
+    padding: 45px;
+    border-radius: 20px;
+    background: rgba(244, 244, 244, 1);
+}
+.frame38:hover{
+    background: black;
+    color: white;
+}
