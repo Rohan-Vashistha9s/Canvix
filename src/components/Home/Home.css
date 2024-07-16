@@ -158,6 +158,11 @@
     width: 1400px;
     height: 368px;
     font-family: 'Roboto Serif', serif;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: -25rem;
 }
 .frame37{
     width: 422px;
@@ -166,7 +171,7 @@
     border-radius: 20px;
     background: rgba(244, 244, 244, 1);
 }
-.frame37:hover{
+.frame37:hover,.frame56:hover,.frame38:hover{
     background: black;
     color: white;
 }
@@ -174,6 +179,7 @@
     width: 332px;
     height: 136px;
 }
+
 .frame56{
     width: 422px;
     height: 300px;
@@ -181,18 +187,10 @@
     border-radius: 20px;
     background: rgba(244, 244, 244, 1);
 }
-.frame56:hover{
-    background: black;
-    color: white;
-}
 .frame38{
     width: 422px;
     height: 300px;
     padding: 45px;
     border-radius: 20px;
     background: rgba(244, 244, 244, 1);
-}
-.frame38:hover{
-    background: black;
-    color: white;
 }

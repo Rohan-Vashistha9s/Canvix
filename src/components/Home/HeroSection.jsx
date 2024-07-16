@@ -10,9 +10,13 @@ import client3 from "../Home/assests/client-3.png";
 import client4 from "../Home/assests/client-4.png";
 
 
+
+
+
 // component
 import './Home.css';
 import Navbar from "./Navbar";
+import Services from "./Services";
 
 const HeroSection = () => {
   return (
@@ -61,65 +65,10 @@ const HeroSection = () => {
       {/* HEROSECTION END */}
 
 
-      {/* OUR SERVICE SECTION START */}
-      <div className="container">
-        <div className="Ourservices">
-          <div>
-            <h4 className="justify-center text-center relative top-12 m-auto font-bold our ">Our Services</h4>
-          </div>
-          <h1 className="justify-center text-center relative top-12 m-auto service font-bold">High-impact services for your business</h1>
-        </div>
+      <Services />
 
-        <div className="flex gap-16 boxes">
 
-          <div className="frame37">
-            <div>
-              <img src="" alt="content marketing" />
-            </div>
-            <div className="frame37a gap-4">
-              <div>
-                <p className="font-bold -bottom-20 relative text-2xl">Content Marketing</p>
-              </div>
-              <div>
-                <p className=" -bottom-24 relative ">Our team creates engaging and shareable content that resonates with your audience, drives organic traffic.</p>
-              </div>
-            </div>
-
-          </div>
-
-          <div className="frame56">
-            <div>
-              <img src="" alt="Graphic design" />
-            </div>
-            <div>
-              <div className="frame56a">
-                <p className="font-bold -bottom-20 relative text-2xl">Graphic Design</p>
-              </div>
-              <div>
-                <p className=" -bottom-24 relative">Unlock the power of visual storytelling with our expert graphic design services tailored to elevate your brand and captivate.</p>
-              </div>
-            </div>
-
-          </div>
-
-          <div className="frame38">
-            <div>
-              <img src="" alt="Digital marketing" />
-            </div>
-            <div className="frame38a">
-              <div>
-                <p className="font-bold -bottom-20 relative text-2xl">Digital Marketing</p>
-              </div>
-              <div>
-                <p className=" -bottom-24 relative">Elevate your brand's online presence with our data-driven digital marketing strategies. From SEO and content marketing</p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-      {/* OUR SERVICE SECTION END */}
-
+      
     </div>
   );
 };
