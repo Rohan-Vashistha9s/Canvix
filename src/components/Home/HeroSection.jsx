@@ -15,8 +15,9 @@ import client4 from "../Home/assests/client-4.png";
 
 // component
 import './Home.css';
-import Navbar from "./Navbar";
+
 import Services from "./Services";
+import Navbar from "../Navbar/Navbar";
 
 const HeroSection = () => {
   return (
@@ -26,7 +27,7 @@ const HeroSection = () => {
       {/* HEROSECTION START */}
 
       <div className="home">
-        <Navbar />
+        <Navbar/>
 
         {/* FRAME53 START */}
         <div className="text-white">
