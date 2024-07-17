@@ -1,30 +1,23 @@
-// images
-import logo from "../Home/assests/logo.png";
-import ornament from "../Home/assests/Ornament.png";
-
-
+import { Link } from "react-router-dom";
+import logo from "../About/assets/Group 9.png";
 
 
 const Navbar = () => {
     return (
-        <div>
-            <div>
-                <img src={ornament} alt="ornament" className="bg-black absolute w-40 h-44 top-48" />
-            </div>
-
-            {/* NAVBAR START*/}
-            <nav className="text-white cursor-pointer">
-                <img src={logo} alt="logo" className="left-56 relative top-5 w-36 h-10" />
-                <ul className="flex bottom-3 relative justify-center gap-9">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact Us</li>
-                </ul>
-                <button className="w-32 h-10 bg-white text-black relative rounded-3xl px-4 py-2 get">Get in touch</button>
-            </nav>
-            {/* NAVBAR END */}
+        <nav className="bg-white text-black p-4 flex justify-between items-center">
+        <div className="flex items-center">
+          <img src={logo} alt="logo" className="w-36 h-10 mr-8" />
+          <ul className="flex space-x-9 text-lg">
+            <Link to="/home">Home</Link>
+            <Link to="/about">About</Link>
+            <li className="cursor-pointer hover:text-gray-600">Contact Us</li>
+          </ul>
         </div>
+        <button className="bg-black text-white rounded-3xl px-6 py-2 hover:bg-gray-800 transition duration-300">
+          Get in touch
+        </button>
+      </nav>
     )
 }
 
-export default Navbar
+export default Navbar;
