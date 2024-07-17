@@ -24,9 +24,9 @@ import linkedin from "./assets/Frame 143.png";
 function About() {
   return (
     <>
-    <section className="bg-black w-[1250px] h-[706px] mx-auto my-10 text-white rounded-lg">
+   <section className="bg-black w-full max-w-[1250px] min-h-[600px] mx-auto my-10 text-white rounded-lg">
   <div className="container mx-auto p-10 flex flex-col md:flex-row items-center">
-    <div className="md:w-1/2">
+    <div className="md:w-1/2 px-6 py-4 w-full">
       <p className="text-sm mb-2">Pleasure and so read the van hope.</p>
       <h1 className="text-5xl font-bold mb-4">
         Ready to take <span className="text-teal-400">your business</span> to the next level?
@@ -48,21 +48,20 @@ function About() {
         </div>
       </div>
     </div>
-    <div className="md:w-1/2 mt-10 md:mt-0 relative">
-      <div className="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
+    <div className="md:w-1/2 w-full mt-10 md:mt-[-225px]  md:right-[-127px] relative">
       <div className="relative">
         <img
-          className="rounded-lg w-[326px] h-[449px] shadow-lg absolute top-0 left-0"
+          className="rounded-lg w-full max-w-[450px] h-auto shadow-lg absolute top-[-1rem] left-0"
           src={Rectangle281}
           alt="Business meeting"
         />
         <img
-          className="rounded-lg w-[326px] h-[449px] shadow-lg absolute top-6 left-6"
+          className="rounded-lg w-full max-w-[450px] h-auto shadow-lg absolute top-4 left-6"
           src={Rectangle28}
           alt="Business meeting"
         />
         <img
-          className="rounded-lg w-[326px] h-[449px] shadow-lg absolute top-12 left-12"
+          className="rounded-lg w-full max-w-[450px] h-auto shadow-lg absolute top-8 left-12"
           src={Rectangle29}
           alt="Business meeting"
         />
@@ -70,6 +69,7 @@ function About() {
     </div>
   </div>
 </section>
+
     <Service />
     <AboutUs />
     <TeamMember />
@@ -80,7 +80,7 @@ function About() {
 
 function Service() {
     return (
-      <section className="bg-white text-gray-900 py-20">
+      <section className="bg-white mt-[300px] md:mt-[20px] text-gray-900 py-20">
         <div className="container mx-auto text-center">
           <div className="flex flex-wrap justify-around">
             <Feature title="200+" description="We're a family" details="Speedily say has suitable disposal and boy. On forth doubt miles of child. Exercise joy man children rejoiced." />
@@ -108,92 +108,95 @@ function Service() {
   function AboutUs() {
     return (
       <section className="bg-black text-white py-20">
-      <div className="container mx-auto flex flex-col md:flex-row items-center">
-        <div className="md:w-1/2">
-          <h2 className="text-teal-400 text-lg font-bold mb-2">Our Mission</h2>
-          <h1 className="text-5xl font-bold mb-4">
-            Boost your with your business.
-          </h1>
-          <p className="text-lg mb-8">
-            He moonlights difficult engrossed it, sportsmen. Interested has all devonshire difficulty get assistance joy.
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-            <div className="space-y-2 w-[300px]">
-              <div className="flex items-center gap-2">
-                <img src={tick} alt="tick" />
-                <p>Moonlight newspaper up its enjoyment.</p>
-              </div>
-              <div className="flex items-center gap-2">
-                <img src={tick} alt="tick" />
-                <p>She new course gets living.</p>
-              </div>
-              <div className="flex items-center gap-2">
-                <img src={tick} alt="tick" />
-                <p>She new course gets living.</p>
-              </div>
-            </div>
-            <div className="space-y-2 w-[230px]">
-              <div className="flex items-center gap-2">
-                <img src={tick} alt="tick" />
-                <p>Rooms oh fully taken by worse.</p>
-              </div>
-              <div className="flex items-center gap-2">
-                <img src={tick} alt="tick" />
-                <p>Percieved end certainly day.</p>
-              </div>
-              <div className="flex items-center gap-2">
-                <img src={tick}  alt="tick" />
-                <p>Preference any astonished unreserved Mrs.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="md:w-1/2 mt-10 md:mt-0 flex flex-col items-center relative">
-          <div className="mb-8 relative">
-            <img
-              className="rounded-lg w-[326px] h-[449px] shadow-lg relative left-[-10px]"
-              src={Ellipse32}
-              alt="Team"
-            />
-            <div className="absolute w-[150px] top-[80px] left-[300px] bg-white text-black px-2 py-1 rounded-lg text-sm">
-              <h1 className="text-center">Team members</h1>
-              <div className="flex space-x-0 mt-1">
-                <img className="h-6 w-6 rounded-full" src={Ellipse21} alt="Ellipse21" />
-                <img className="h-6 w-6 rounded-full" src={Ellipse23} alt="Ellipse23" />
-                <img className="h-6 w-6 rounded-full" src={Ellipse22} alt="Ellipse22" />
-                <img className="h-6 w-6 rounded-full" src={Ellipse25} alt="Ellipse25" />
-                <img className="h-6 w-6 rounded-full" src={Ellipse24} alt="Ellipse24" />
-                <img className="h-6 w-6 rounded-full" src={Ellipse26} alt="Ellipse26" />
-              </div>
-            </div>
-          </div>
-          <div className="relative">
-            <div className="absolute top-[150px] left-[-250px]">
-              <div className="flex items-center mb-8">
-                <div className="text-4xl font-bold">10k</div>
-                <div className="ml-4">
-                  <p>Great coversations per month.</p>
+        <div className="container mx-auto flex flex-col md:flex-row items-center">
+          <div className="md:w-1/2">
+            <h2 className="text-teal-400 text-lg font-bold mb-2">Our Mission</h2>
+            <h1 className="text-5xl font-bold mb-4">
+              Boost your with your business.
+            </h1>
+            <p className="text-lg mb-8">
+              He moonlights difficult engrossed it, sportsmen. Interested has all devonshire difficulty get assistance joy.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+              <div className="space-y-2 w-[300px]">
+                <div className="flex items-center gap-2">
+                  <img src={tick} alt="tick" />
+                  <p>Moonlight newspaper up its enjoyment.</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <img src={tick} alt="tick" />
+                  <p>She new course gets living.</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <img src={tick} alt="tick" />
+                  <p>She new course gets living.</p>
                 </div>
               </div>
-              <div className="flex items-center">
-                <div className="text-4xl font-bold">95+</div>
-                <div className="ml-4">
-                  <p>Project complete.</p>
+              <div className="space-y-2 w-[230px]">
+                <div className="flex items-center gap-2">
+                  <img src={tick} alt="tick" />
+                  <p>Rooms oh fully taken by worse.</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <img src={tick} alt="tick" />
+                  <p>Percieved end certainly day.</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <img src={tick} alt="tick" />
+                  <p>Preference any astonished unreserved Mrs.</p>
                 </div>
               </div>
             </div>
-            <img
-              className="rounded-lg shadow-lg relative right-[-10px]"
-              src={Rectangle34}
-              alt="Project"
-            />
+          </div>
+          <div className="md:w-1/2 mt-10 md:mt-0 flex flex-col items-center relative">
+            <div className="mb-8 relative">
+              <img
+                className="rounded-lg w-[326px] h-[449px] shadow-lg relative left-[-10px]"
+                src={Ellipse32}
+                alt="Team"
+              />
+              <div className="absolute w-[150px] top-[80px] left-[300px] bg-white text-black px-2 py-1 rounded-lg text-sm">
+                <h1 className="text-center">Team members</h1>
+                <div className="flex space-x-0 mt-1">
+                  <img className="h-6 w-6 rounded-full" src={Ellipse21} alt="Ellipse21" />
+                  <img className="h-6 w-6 rounded-full" src={Ellipse23} alt="Ellipse23" />
+                  <img className="h-6 w-6 rounded-full" src={Ellipse22} alt="Ellipse22" />
+                  <img className="h-6 w-6 rounded-full" src={Ellipse25} alt="Ellipse25" />
+                  <img className="h-6 w-6 rounded-full" src={Ellipse24} alt="Ellipse24" />
+                  <img className="h-6 w-6 rounded-full" src={Ellipse26} alt="Ellipse26" />
+                </div>
+              </div>
+            </div>
+            <div className="relative">
+              <div className="absolute top-[50px] left-[-200px] flex items-center">
+                <div className="flex flex-col mt-[-40px] items-center">
+                  <div className="text-4xl font-bold">10k</div>
+                  <div>
+                    <p className='w-[150px]'>Great conversations per month.</p>
+                  </div>
+                </div>
+                <div className="mx-4 border-r border-gray-500 h-[80px]"></div>
+                <div className="flex flex-col mt-12 items-center">
+                  <div className="text-4xl font-bold">95+</div>
+                  <div>
+                    <p>Project complete.</p>
+                  </div>
+                </div>
+              </div>
+              <img
+                className="rounded-lg shadow-lg relative right-[-150px] mt-8 md:mt-0"
+                src={Rectangle34}
+                alt="Project"
+              />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
     );
   }
-
+  
+  
+  
   function TeamMember() {
     return (
       <section className="bg-white text-gray-900 py-20">
@@ -226,7 +229,7 @@ function Service() {
   
   function Team({ name, title, image, socialLinks }) {
     return (
-      <div className="w-[419px] h-[500px] p-4">
+      <div className="w-[419px] mb-10 h-[500px] p-4">
         <div className="rounded-lg overflow-hidden relative text-center">
           <div className="relative">
             <img className="w-full h-full object-cover" src={image} alt={name} />
@@ -249,10 +252,10 @@ function Service() {
 
   function LetsTalk() {
     return (
-      <div className="relative w-[1250px] h-[209px] mx-auto my-8" style={{ backgroundImage: `url(${CallToAction})`, backgroundSize: 'cover', backgroundPosition: 'center', borderRadius: '20px' }}>
+      <div className="relative w-full max-w-[1250px] h-[209px] mx-auto my-8" style={{ backgroundImage: `url(${CallToAction})`, backgroundSize: 'cover', backgroundPosition: 'center', borderRadius: '20px' }}>
         <div className="absolute inset-0 flex items-center justify-center rounded-[20px] bg-gray-900 bg-opacity-50">
-          <div className="text-center">
-            <h2 className="text-3xl font-bold mb-4 text-white">Enough talk, let's get to work</h2>
+          <div className="text-center px-4 sm:px-0">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-white">Enough talk, let's get to work</h2>
             <button className="bg-white text-black px-6 py-2 rounded-full">
               Get in touch
             </button>
@@ -261,5 +264,6 @@ function Service() {
       </div>
     );
   }
+  
 
 export default About;

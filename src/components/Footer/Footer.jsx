@@ -11,8 +11,8 @@ function Footer() {
         <div className="md:w-1/3 mb-6 md:mb-0">
           <img src={logo} alt="" />
           <p>
-            We are a team of creatively diverse, driven, and innovative individuals working in various locations
-            around the world. Our passion for creativity and joyful user experiences drives us to deliver exceptional work.
+            We're a team of strategic creator and digital innovator, united focus
+            in our pursuit of mastery and joyful.
           </p>
         </div>
         
