@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
+
+/* HEROSECTION File Css  */
+
 .home {
     background-color: black;
     width: auto;
     height: 135vh;
 }
 
+
+/* Navbar css */
 .get {
     right: -70rem;
     bottom: 2.5rem;
     cursor: pointer;
 }
+
+/* HEROSECTION File Css  */
 
 .frame53a {
     font-weight: 600;
@@ -125,7 +132,7 @@
     height: 70px;
 }
 
-
+/* Service css */
 
 .container {
     width: 100vw;
@@ -154,8 +161,9 @@
     font-family: 'Roboto Serif', serif;
 
 }
-.boxes{
-    width: 1400px;
+
+.boxes {
+    width: 1250px;
     height: 368px;
     font-family: 'Roboto Serif', serif;
     justify-content: center;
@@ -164,33 +172,442 @@
     position: relative;
     top: -25rem;
 }
-.frame37{
-    width: 422px;
+
+.frame37 {
+    width: 375px;
     height: 300px;
     padding: 45px;
     border-radius: 20px;
     background: rgba(244, 244, 244, 1);
 }
-.frame37:hover,.frame56:hover,.frame38:hover{
+
+.frame37:hover .content01 {
+    z-index: 10;
+}
+
+
+.content02 {
+    left: 4.3rem;
+    top: 6.5rem;
+    z-index: 10;
+}
+
+
+
+.frame37:hover,
+.frame56:hover,
+.frame38:hover {
     background: black;
     color: white;
 }
-.frame37a{
+
+.frame37a {
     width: 332px;
     height: 136px;
 }
 
-.frame56{
+.frame56 {
     width: 422px;
     height: 300px;
     padding: 45px;
     border-radius: 20px;
     background: rgba(244, 244, 244, 1);
 }
-.frame38{
+
+.frame38 {
     width: 422px;
     height: 300px;
     padding: 45px;
     border-radius: 20px;
     background: rgba(244, 244, 244, 1);
 }
+
+/* About file css */
+
+.group47 {
+    width: 98.9vw;
+    height: 100vh;
+    position: relative;
+    top: 25rem;
+}
+
+.frame182 {
+    width: 80vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: 4rem;
+}
+
+.image1 {
+    width: 440px;
+    position: absolute;
+    height: 465px;
+    left: 6rem;
+    top: 2rem;
+}
+
+.image2 {
+    width: 440px;
+    position: absolute;
+    height: 465px;
+    left: 8rem;
+    top: 4rem;
+}
+
+.image3 {
+    width: 440px;
+    position: absolute;
+    height: 465px;
+    left: 10rem;
+    top: 6rem;
+}
+
+.frame181 {
+    width: 30rem;
+    height: 50rem;
+    position: relative;
+    right: -40rem;
+    top: 6rem;
+}
+
+.frame181a {
+    color: rgba(100, 204, 197, 1);
+    font-size: 30px;
+    font-family: 'Roboto Serif', serif;
+}
+
+.frame181b {
+    font-family: 'Roboto Serif', serif;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 4rem;
+}
+
+.frame181c {
+    color: rgba(100, 204, 197, 1);
+}
+
+.frame35 {
+    left: 1rem;
+    top: 12.5rem;
+    position: relative;
+    z-index: 1;
+    top: 3.5rem;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.frame35a {
+    background-color: white;
+    color: black;
+    left: 0.2rem;
+    padding-left: 1.8rem;
+    top: 1rem;
+    position: relative;
+    font-size: 20px;
+    border-radius: 23px;
+    width: 248px;
+    height: 48px;
+}
+
+
+
+/* Process file css */
+.Process {
+    width: 98vw;
+    height: 100vh;
+}
+
+.Proccess {
+    width: 80vw;
+    height: 100vh;
+    position: relative;
+    top: 28rem;
+    margin: auto;
+    line-height: 4rem;
+}
+
+.pro {
+    color: rgba(100, 204, 197, 1);
+    font-size: 30px;
+    font-family: 'Roboto Serif', serif;
+}
+
+.proc {
+    font-family: 'Roboto Serif', serif;
+    font-size: 60px;
+    width: 676px;
+    height: 150px;
+}
+
+.group57 {
+    width: 1250px;
+    height: 368px;
+    font-family: 'Roboto Serif', serif;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: 8rem;
+}
+
+.ideate {
+    width: 190px;
+    position: relative;
+    top: -4.5rem;
+    left: -7rem;
+    height: 257px;
+}
+
+.ideaFrame {
+    right: 61rem;
+    width: 17rem;
+}
+
+.ideaarrow {
+    position: relative;
+    left: 7rem;
+    top: 1rem;
+    /* background-color: black; */
+}
+
+.researchFrame {
+    right: 40rem;
+    width: 17.5rem;
+}
+
+.researchTag {
+    left: 6rem;
+}
+
+.researching {
+    width: 190px;
+    position: relative;
+    top: -4.5rem;
+    left: -2.5rem;
+    height: 257px;
+}
+
+.researcharrow {
+    position: relative;
+    left: 12rem;
+    top: 1rem;
+    /* background-color: black; */
+}
+
+.createTag {
+    left: 11rem;
+}
+
+.creating {
+    width: 190px;
+    position: relative;
+    top: -4.5rem;
+    left: 3rem;
+    height: 257px;
+}
+
+.createFrame {
+    right: 19.4rem;
+    width: 17rem;
+}
+
+.createarrow {
+    position: relative;
+    left: 17rem;
+    top: 1rem;
+    /* background-color: black; */
+}
+
+.testing {
+    height: 257px;
+    top: -4.5rem;
+    left: 8rem;
+}
+
+.testingtag {
+    left: 17rem;
+}
+
+.testingFrame {
+    right: 1rem;
+    width: 15rem;
+}
+
+.testarrow {
+    position: relative;
+    left: 22rem;
+    top: 1rem;
+    /* background-color: black; */
+}
+
+.group40 .test {
+    width: -20rem;
+    top: -4rem;
+    height: 5rem;
+    left: 10rem;
+}
+
+.group63 {
+    width: 80rem;
+    height: 80rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    top: 30rem;
+}
+
+.group63 h1 {
+    font-family: 'Roboto Serif', serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.trial {
+    right: -62rem;
+    top: 15rem;
+    border-radius: 24px;
+    height: 3.1rem;
+    width: 13rem;
+    background-color: black;
+    color: white;
+}
+
+.trail img {
+    width: 3rem;
+    height: 2rem;
+    background-color: red;
+}
+
+.trial button {
+    border: none;
+    margin-left: 3.7rem;
+    bottom: 1rem;
+    position: relative;
+    /* background-color: red; */
+
+}
+
+.frame131 {
+    width: 494px;
+    height: 364px;
+}
+
+.frame131 h2 {
+    font-family: 'Roboto Serif', serif;
+}
+
+.frame131 p {
+    font-family: 'Roboto Serif', serif;
+}
+
+.frame201 {
+    width: 494px;
+    height: 364px;
+}
+
+.frame201 h2 {
+    font-family: 'Roboto Serif', serif;
+}
+
+.frame201 p {
+    font-family: 'Roboto Serif', serif;
+}
+
+.group63a {
+    position: relative;
+    right: -20rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    width: 494px;
+    height: 364px;
+    top: -28rem;
+}
+
+.frame130 p {
+    font-family: 'Roboto Serif', serif;
+}
+
+.frame128 p {
+    font-family: 'Roboto Serif', serif;
+    top: 5.5rem;
+
+}
+
+
+/* Testimonial file css */
+
+.Testimonial {
+    width: 80vw;
+    height: 75vh;
+    background-color: rgb(234, 234, 234);
+    border-radius: 18px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 38rem;
+    text-align: center;
+    position: relative;
+}
+
+.Testimonial h1 {
+    font-weight: 700;
+    font-size: 1.3rem;
+    width: 51rem;
+    font-family: serif;
+    top: 16rem;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.Testimonial h2 {
+    position: relative;
+    top: 18rem;
+    font-weight: 600;
+    font-family: 'Roboto Serif', serif;
+}
+
+.Testimonial p {
+    position: relative;
+    top: 18rem;
+}
+
+.Testimonial img {
+    left: 44%;
+    top: 3rem;
+}
+.slider{
+    width: 9rem;
+    height: 44.44px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.groups{
+    position: relative;
+    top: 20rem;
+    
+    display: flex;
+    cursor: pointer;
+}
+.group2a{
+    margin-right:3rem;
+    left: 1rem;
+    position: relative;
+}
+/* .footer
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    top: 50rem;
+    position: relative;
+} */
