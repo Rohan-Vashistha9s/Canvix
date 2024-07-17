@@ -1,9 +1,19 @@
 import content01 from "../Home/assests/content01.png";
 import content02 from "../Home/assests/content02.png";
 import graphic01 from "../Home/assests/Graphic01.png";
-import graphic02 from "../Home/assests/Graphic02.png";
-import digital01 from "../Home/assests/digital01.png";
 import digital02 from "../Home/assests/digital02.png";
+import vector from "../Home/assests/Vector.png";
+import it from "../Home/assests/it.png";
+import brand from "../Home/assests/brand.png";
+import web from "../Home/assests/web.png";
+
+
+
+
+
+
+
+
 const Services = () => {
     return (
         <div>
@@ -19,16 +29,19 @@ const Services = () => {
                 <div className="flex gap-16 boxes">
 
                     <div className="frame37">
-                        <div>
-                            <img src={content01} alt="content marketing" className="absolute " />
-                            <img src={content02} alt="" className="relative left-6 top-6" />
+                        <div className="image-layer">
+                            <img src={content01} alt="content marketing" className="content01 absolute" />
+                            <img src={content02} alt="" className="content02 absolute " />
+                        </div>
+                        <div className="image-layer">
+                            <img src={vector} alt="vector" className="vector relative " />
                         </div>
                         <div className="frame37a gap-4">
                             <div>
-                                <p className="font-bold -bottom-20 relative text-2xl">Content Marketing</p>
+                                <p className="font-bold -bottom-8 relative text-2xl">Content Marketing</p>
                             </div>
                             <div>
-                                <p className=" -bottom-24 relative ">Our team creates engaging and shareable content that resonates with your audience, drives organic traffic.</p>
+                                <p className=" -bottom-14 -left-1 relative ">Our team creates engaging and shareable content that resonates with your audience, drives organic traffic.</p>
                             </div>
                         </div>
 
@@ -37,8 +50,9 @@ const Services = () => {
                     <div className="frame56">
                         <div>
                             <img src={graphic01} alt="Graphic design" className="relative z-10 top-3 left-2" />
-                            <img src={graphic02} alt="Graphic design" className="relative -top-12 -left-4 " />
+                            <img src={vector} alt="Graphic design" className="relative vector -top-12 -left-4 " />
                         </div>
+                    
                         <div>
                             <div className="frame56a">
                                 <p className="font-bold bottom-3 relative text-2xl">Graphic Design</p>
@@ -52,7 +66,7 @@ const Services = () => {
 
                     <div className="frame38">
                         <div>
-                            <img src={digital01} alt="Digital marketing" className="relative -top-2 -left-4 " />
+                            <img src={vector} alt="Digital marketing" className="relative -top-2 -left-4 " />
                             <img src={digital02} alt="" className="relative z-10 -top-16 left-2" />
                         </div>
                         <div className="frame38a">
@@ -73,15 +87,15 @@ const Services = () => {
 
                     <div className="frame37">
                         <div>
-                            <img src={content01} alt="content marketing" className="absolute " />
-                            <img src={content02} alt="" className="relative left-6 top-6" />
+                            <img src={vector} alt="content marketing" className="absolute " />
+                            <img src={web} alt="" className="relative left-6 top-6" />
                         </div>
                         <div className="frame37a gap-4">
                             <div>
                                 <p className="font-bold -bottom-20 relative text-2xl">Web Design</p>
                             </div>
                             <div>
-                                <p className=" -bottom-24 relative ">We specialize in creating visually stunning, user-friendly websites that align with your brand identity and deliver an exceptional.</p>
+                                <p className=" -bottom-20 relative ">We specialize in creating visually stunning, user-friendly websites that align with your brand identity and deliver an exceptional.</p>
                             </div>
                         </div>
 
@@ -89,8 +103,8 @@ const Services = () => {
 
                     <div className="frame56">
                         <div>
-                            <img src={graphic01} alt="Graphic design" className="relative z-10 top-3 left-2" />
-                            <img src={graphic02} alt="Graphic design" className="relative -top-12 -left-4 " />
+                            <img src={it} alt="Graphic design" className="relative z-10 top-3 left-2" />
+                            <img src={vector} alt="Graphic design" className="relative -top-12 -left-4 " />
                         </div>
                         <div>
                             <div className="frame56a">
@@ -105,8 +119,8 @@ const Services = () => {
 
                     <div className="frame38">
                         <div>
-                            <img src={digital01} alt="Digital marketing" className="relative -top-2 -left-4 " />
-                            <img src={digital02} alt="" className="relative z-10 -top-16 left-2" />
+                            <img src={vector} alt="Digital marketing" className="relative -top-2 -left-4 " />
+                            <img src={brand} alt="" className="relative z-10 -top-16 left-2" />
                         </div>
                         <div className="frame38a">
                             <div>
