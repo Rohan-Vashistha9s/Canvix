@@ -22,7 +22,7 @@ import About from "./About/About";
 import Process from "./Process/Process";
 import Projects from "./Projects/Projects";
 import Testimonial from "./Testimonial/Testimonial";
-import Footer from "./Footer/Footer";
+// import Footer from "./Footer/Footer";
 
 
 const HeroSection = () => {
@@ -86,9 +86,9 @@ const HeroSection = () => {
       <div>
       <Testimonial/>
       </div>
-      <div>
+      {/* <div>
         <Footer/>
-      </div>
+      </div> */}
     </div>
   );
 };
