@@ -18,6 +18,12 @@ import './Home.css';
 
 import Services from "./Services";
 import Navbar from "../Navbar/Navbar";
+import About from "./About/About";
+import Process from "./Process/Process";
+import Projects from "./Projects/Projects";
+import Testimonial from "./Testimonial/Testimonial";
+import Footer from "./Footer/Footer";
+
 
 const HeroSection = () => {
   return (
@@ -27,7 +33,7 @@ const HeroSection = () => {
       {/* HEROSECTION START */}
 
       <div className="home">
-        <Navbar/>
+        <Navbar />
 
         {/* FRAME53 START */}
         <div className="text-white">
@@ -65,11 +71,24 @@ const HeroSection = () => {
       </div>
       {/* HEROSECTION END */}
 
-
-      <Services />
-
-
-      
+      <div>
+        <Services />
+      </div>
+      <div>
+        <About />
+      </div>
+      <div>
+        <Process/>
+      </div>
+      <div>
+        <Projects/>
+      </div>
+      <div>
+      <Testimonial/>
+      </div>
+      <div>
+        <Footer/>
+      </div>
     </div>
   );
 };
