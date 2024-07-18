@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+.contactusContainer{
+    width: 94rem;
+    height: 70rem;
+}
+.mainSection{
+    width: 67rem;
+    height: 80rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: -15rem;
+    /* background-color: black; */
+    margin: auto;
+    /* background-color: red; */
+}
+.left{
+    width: 40rem;
+    height: 40rem;
+    position: relative;
+    top: 1.5rem;
+}
+.left h1{
+    font-family: 'Roboto Serif', serif;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.left p{
+    font-size: 1.1rem;
+    width: 24rem;
+    position: relative;
+    top: 1rem;
+}
+.linee{
+    width: 23rem;
+    position: relative;
+    top: 3rem;
+}
+.email h2{
+position: relative;
+left: 1.5rem;
+font-size: 1.5rem;
+}
+.email span{
+    position: relative;
+    left: 4.8rem;
+    top: -1.4rem;
+    font-size: 1rem;
+}
+.call h3{
+    position: relative;
+left: 4.5rem;
+top: -3rem;
+font-size: 1.5rem;
+}
+.call span{
+    position: relative;
+    left: 4.4rem;
+    top: -2.9rem;
+    font-size: 1rem;
+}
+.location{
+    position: relative;
+    top: -2rem;
+}
+.location h4{
+    position: relative;
+    left: 4.5rem;
+    top: -3rem;
+    font-size: 1.5rem;
+}
+.location span{
+    position: relative;
+    left: 4.4rem;
+    top: -2.9rem;
+    font-size: 1rem;
+}
+.lineee{
+    width: 23rem;
+    position: relative;
+    top: 2.5rem;
+}
+.socialmedia{
+    display: flex;
+    position: relative;
+    top: 4rem;
+    left: -1rem;
+    cursor: pointer;
+    width: 10rem;
+}
+
+
+.mainSection .rightside {
+    background-color: rgb(239, 239, 239);
+    position: relative;
+    width: 50rem;
+    border-radius: 10px;
+    height: 35rem;
+    top: 1rem;
+}
+.mainSection button{
+    background-color: black;
+
+    width: 8rem;
+    left: 2rem;
+    height: 3rem;
+    color: white;
+    position: relative;
+    top: 14rem;
+    border-radius: 23px;
+}
+.googlemap{
+    position: relative;
+    top: -24rem;
+    width: 80rem;
+    margin: auto;
+}

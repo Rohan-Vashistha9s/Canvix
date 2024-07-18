@@ -21,23 +21,23 @@ function Footer() {
           <div>
             <h3 className="font-bold mb-2">Pages</h3>
             <ul>
-              <li><a href="#" className="hover:underline">Home</a></li>
-              <li><a href="#" className="hover:underline">Home 2</a></li>
-              <li><a href="#" className="hover:underline">About</a></li>
-              <li><a href="#" className="hover:underline">Contact Us</a></li>
-              <li><a href="#" className="hover:underline">Portfolio</a></li>
-              <li><a href="#" className="hover:underline">Portfolio Single</a></li>
+              <li>Home</li>
+              <li>Home 2</li>
+              <li>About</li>
+              <li>Contact Us</li>
+              <li>Portfolio</li>
+              <li>Portfolio Single</li>
             </ul>
           </div>
           <div>
             <h3 className="font-bold mb-2">Utility Pages</h3>
             <ul>
-              <li><a href="#" className="hover:underline">Style Guide</a></li>
-              <li><a href="#" className="hover:underline">Instruction</a></li>
-              <li><a href="#" className="hover:underline">License</a></li>
-              <li><a href="#" className="hover:underline">Changelog</a></li>
-              <li><a href="#" className="hover:underline">Error 404</a></li>
-              <li><a href="#" className="hover:underline">Password Protected</a></li>
+              <li>Style Guide</li>
+              <li>Instruction</li>
+              <li>License</li>
+              <li>Changelog</li>
+              <li>Error 404</li>
+              <li>Password Protected</li>
             </ul>
           </div>
         </div>
