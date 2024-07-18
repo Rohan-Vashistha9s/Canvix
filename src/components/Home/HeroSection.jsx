@@ -17,12 +17,13 @@ import client4 from "../Home/assests/client-4.png";
 import './Home.css';
 
 import Services from "./Services";
-import Navbar from "../Navbar/Navbar";
-import About from "./About/About";
+import Navbar from "./Navbar/Navbar";
+import About from "./About Us/About";
 import Process from "./Process/Process";
 import Projects from "./Projects/Projects";
 import Testimonial from "./Testimonial/Testimonial";
-// import Footer from "./Footer/Footer";
+// import Footer from "../Footer/Footer";
+
 
 
 const HeroSection = () => {
@@ -86,9 +87,6 @@ const HeroSection = () => {
       <div>
       <Testimonial/>
       </div>
-      {/* <div>
-        <Footer/>
-      </div> */}
     </div>
   );
 };
