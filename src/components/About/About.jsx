@@ -21,9 +21,15 @@ import facebook from "./assets/Frame 141.png";
 import instagram from "./assets/Frame 142.png";
 import linkedin from "./assets/Frame 143.png";
 
+
+
+import './About.css';
+import MainNavbar from '../MainNavbar/MainNavbar';
+
 function About() {
   return (
     <>
+    <MainNavbar/>
    <section className="bg-black w-full max-w-[1250px] min-h-[600px] mx-auto my-10 text-white rounded-lg">
   <div className="container mx-auto p-10 flex flex-col md:flex-row items-center">
     <div className="md:w-1/2 px-6 py-4 w-full">
@@ -105,7 +111,7 @@ function Service() {
   }
 
   
-  function AboutUs() {
+  function  AboutUs() {
     return (
       <section className="bg-black text-white py-20">
         <div className="container mx-auto flex flex-col md:flex-row items-center">
