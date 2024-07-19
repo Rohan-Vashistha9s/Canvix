@@ -1,11 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
+
+.Contactnavbar{
+    /* background-color: red; */
+    width: 95rem;
+    height: 8rem;  
+    position: absolute;
+    top: 15rem;
+    
+    left: -13.7rem;
+}
+.Contactnavbar .contactbutton{
+    background-color: black;
+    width: 10rem;
+    color: white;
+    height: 3rem;  
+    position: absolute;
+    top: 1rem;
+    left: 68rem;   
+}
 .contactusContainer{
     width: 94rem;
     height: 70rem;
 }
 .mainSection{
-    width: 67rem;
+    width: 65rem;
     height: 80rem;
     justify-content: center;
     align-items: center;
@@ -93,12 +112,18 @@ font-size: 1.5rem;
 
 
 .mainSection .rightside {
-    background-color: rgb(239, 239, 239);
+    background-color: rgb(247 247 247);
     position: relative;
     width: 50rem;
-    border-radius: 10px;
+    border-radius: 20px;
+    
     height: 35rem;
     top: 1rem;
+}
+.rightside form{
+    position: relative;
+    left: 2rem;
+    top: 2rem;
 }
 .mainSection button{
     background-color: black;

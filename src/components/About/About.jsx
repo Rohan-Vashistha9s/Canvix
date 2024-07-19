@@ -83,7 +83,8 @@ function About() {
         <LetsTalk />
       </div>
 
-    </>
+    </>  
+     
   );
 }
 
