@@ -4,6 +4,7 @@ import instagram from "../About/assets/Frame 142.png";
 import linkedin from "../About/assets/Frame 143.png";
 import logo from "../Home/assests/logo.png";
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -21,10 +22,10 @@ function Footer() {
           <div>
             <h3 className="font-bold mb-2">Pages</h3>
             <ul>
-              <li>Home</li>
+              <li><Link to='/'>Home</Link></li>
               <li>Home 2</li>
-              <li>About</li>
-              <li>Contact Us</li>
+              <li><Link to='/about'>About</Link></li>
+              <li><Link to='/contact'>Contact Us</Link></li>
               <li>Portfolio</li>
               <li>Portfolio Single</li>
             </ul>

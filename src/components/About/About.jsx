@@ -25,6 +25,7 @@ import linkedin from "./assets/Frame 143.png";
 
 import './About.css';
 import MainNavbar from '../MainNavbar/MainNavbar';
+import { Link } from 'react-router-dom';
 
 function About() {
   return (
@@ -54,7 +55,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="md:w-1/2 w-full mt-10 md:mt-[-225px]  md:right-[-127px] relative">
+          <div className="md:w-1/2 w-full mt-10 md:mt-[-235px] md:right-[-127px] relative">
             <div className="relative">
               <img
                 className="rounded-lg w-full max-w-[450px] h-auto shadow-lg absolute top-[-1rem] left-0"
@@ -161,24 +162,24 @@ function AboutUs() {
         <div className="md:w-1/2 mt-10 md:mt-0 flex flex-col items-center relative">
           <div className="mb-8 relative">
             <img
-              className="rounded-lg w-[326px] h-[449px] shadow-lg relative left-[-10px]"
+              className="rounded-lg w-[326px] h-[449px] shadow-lg relative left-[-100px]"
               src={Ellipse32}
               alt="Team"
             />
-            <div className="absolute w-[150px] top-[80px] left-[300px] bg-white text-black px-2 py-1 rounded-lg text-sm">
-              <h1 className="text-center">Team members</h1>
-              <div className="flex space-x-0 mt-1">
-                <img className="h-6 w-6 rounded-full" src={Ellipse21} alt="Ellipse21" />
-                <img className="h-6 w-6 rounded-full" src={Ellipse23} alt="Ellipse23" />
-                <img className="h-6 w-6 rounded-full" src={Ellipse22} alt="Ellipse22" />
-                <img className="h-6 w-6 rounded-full" src={Ellipse25} alt="Ellipse25" />
-                <img className="h-6 w-6 rounded-full" src={Ellipse24} alt="Ellipse24" />
-                <img className="h-6 w-6 rounded-full" src={Ellipse26} alt="Ellipse26" />
+            <div className="absolute w-[180px] top-[80px] left-[200px] bg-white text-black p-4 rounded-lg text-sm">
+              <h1 className="text-center text-[18px] font-bold">Team members</h1>
+              <div className="flex space-x-[-10px] mt-1">
+                <img className="h-8 w-8 rounded-full" src={Ellipse21} alt="Ellipse21" />
+                <img className="h-8 w-8 rounded-full" src={Ellipse23} alt="Ellipse23" />
+                <img className="h-8 w-8 rounded-full" src={Ellipse22} alt="Ellipse22" />
+                <img className="h-8 w-8 rounded-full" src={Ellipse25} alt="Ellipse25" />
+                <img className="h-8 w-8 rounded-full" src={Ellipse24} alt="Ellipse24" />
+                <img className="h-8 w-8 rounded-full" src={Ellipse26} alt="Ellipse26" />
               </div>
             </div>
           </div>
           <div className="relative">
-            <div className="absolute top-[50px] left-[-200px] flex items-center">
+            <div className="absolute top-[50px] left-[-150px] flex items-center">
               <div className="flex flex-col mt-[-40px] items-center">
                 <div className="text-4xl font-bold">10k</div>
                 <div>
@@ -194,7 +195,7 @@ function AboutUs() {
               </div>
             </div>
             <img
-              className="rounded-lg shadow-lg relative right-[-150px] mt-8 md:mt-0"
+              className="rounded-lg shadow-lg relative right-[-180px] mt-8 md:mt-0"
               src={Rectangle34}
               alt="Project"
             />
@@ -268,7 +269,7 @@ function LetsTalk() {
           <div className="text-center px-4 sm:px-0">
             <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-white">Enough talk, let's get to work</h2>
             <button className="bg-white text-black px-6 py-2 rounded-full">
-              Get in touch
+              <Link to='/contact'>Get in touch</Link>
             </button>
           </div>
         </div>
