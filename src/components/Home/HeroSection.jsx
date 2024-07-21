@@ -29,8 +29,6 @@ import Testimonial from "./Testimonial/Testimonial";
 const HeroSection = () => {
   return (
     <div>
-
-
       {/* HEROSECTION START */}
 
       <div className="home">
